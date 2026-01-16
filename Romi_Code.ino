@@ -4,8 +4,8 @@
 
 
 // encoder count targets, tune by turning 16 times and changing numbers untill offset is 0
-#define NIGHTY_LEFT_TURN_COUNT -715
-#define NIGHTY_RIGHT_TURN_COUNT 715
+#define NIGHTY_LEFT_TURN_COUNT -714
+#define NIGHTY_RIGHT_TURN_COUNT 714 //earlier 715
 
 
 // F and B go forward/backwards 50 cm by default, but other distances can be easily specified by adding a number after the letter
@@ -13,8 +13,8 @@
 // L and R are left and right
 // R R for 180 
 // targetTime is target time (duh)
-char moves[200] = "R R F100 L L F100 R F10 B15 R B F";
-double targetTime = 23.5;
+char moves[200] = "L L F100 L L F100";  //R R F100 L L F100 R F10 B15 R B F
+double targetTime = 30;
 double endDist = 45.885;
 double startDist = -16;
 
